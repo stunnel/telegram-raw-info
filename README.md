@@ -19,7 +19,8 @@ A Telegram bot that responds for the user infomation and group infomation.
 
 3. Set the webhook, then the bot will start to work.
 
-Access `https://DOMAIN/init` to bind the webhook.
+Access `https://DOMAIN/init` to bind the webhook.  
+This is only necessary at the first time or you change "DOMAIN" and/or "PREFIX".
 
 4. Chat with the bot, or mention it in a group, then it will reply the message infomation.
 
