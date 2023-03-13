@@ -4,7 +4,12 @@ A Telegram bot that responds for the user infomation and group infomation.
 
 ## Usage
 
-1. Set the environment variables, then run the bot. Recommended to use CloudFlare Workers.
+1. What do you need?
+
+- A Telegram bot
+- A domain name or use CloudFlare Workers domain
+
+2. Set the environment variables, then run the bot. Recommended to use CloudFlare Workers.
 
 - `TELEGRAM_TOKEN` - Telegram bot token
 - `BOT_USERNAME` - Telegram bot username
@@ -12,7 +17,11 @@ A Telegram bot that responds for the user infomation and group infomation.
 - `PREFIX` - Prefix of webhook path
 - `MASTER_ID` - Telegram ID/GroupID to recive error message
 
-2. Chat with the bot, or mention it in a group, then it will reply the message infomation.
+3. Set the webhook, then the bot will start to work.
+
+Access `https://DOMAIN/init` to bind the webhook.
+
+4. Chat with the bot, or mention it in a group, then it will reply the message infomation.
 
 ```json
 {
