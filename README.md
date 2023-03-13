@@ -52,5 +52,5 @@ This is only necessary at the first time or you change "DOMAIN" and/or "PREFIX".
 
 ## Misc
 
-- [My Bot](TravisInfoBot)
+- [My Bot](https://t.me/TravisInfoBot)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
